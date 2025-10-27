@@ -1,7 +1,7 @@
 //christian function -- fetching the API
 async function fetchRandomQuote() {
     
-    const api_url ="https://api.animechan.io/v1/quotes/random"; 
+    const api_url ="https://zenquotes.io/api/quotes/random";
 
     try {
         //gets the data from the api
