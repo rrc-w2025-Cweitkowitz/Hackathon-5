@@ -13,13 +13,23 @@ async function fetchRandomQuote() {
         }
 
         //.json() parses the response as JSON and returns it
-        return await response.json();   
+        return response.json();   
     } catch (error) {
         // catch network errors or the HTTP status error that was thrown
         console.error("Failed to get the quotes:", error.message);
     }
 }
 
-//logs the output of the fetched data
-fetchRandomQuote()
-    .then((data) => console.log(data));
+const quoteList = document.getElementById("quote-list");
+let quoteCount = 0;
+
+async function displayRandomQuote() {
+    const fetchQuote = await fetchRandomQuote();
+    let quoteItem = document.createElement("li");
+
+    quoteItem.textContent = fetchQuote[quoteCount].q;
+    quoteList.appendChild(quoteItem);
+
+    quoteCount ++;
+    // console.log(fetchQuote[0].q);
+}
