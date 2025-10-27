@@ -7,8 +7,10 @@
 ## Team Members:
 
 -   Name 1
--   Name 2
+
+-   Thea 
 -   Chan Madut
+
 
 ## Member Contributions:
 
@@ -18,7 +20,7 @@
 
 ### Name 2:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   Tried to display quotes on the webpage using onclick button and tried to fetch a quote. 
 
 ### Chan:
 
