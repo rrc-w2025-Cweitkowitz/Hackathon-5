@@ -2,23 +2,23 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+Calling an API and presenting the relevant info into the HTML
 
 ## Team Members:
 
--   Name 1
-
+-   Connor
+-   Christian 
 -   Thea 
 -   Chan Madut
 
 
 ## Member Contributions:
 
-### Name 1:
+### Connor:
 
--   Worked on [specific elements] of the webpage.
+- Worked off of branch to fufill requirements. got the api to pull everything and dynamically inject html to show not on console. Spent rest of time trying to get button click to show just one but too no success.
 
-### Name 2:
+### Thea:
 
 -   Tried to display quotes on the webpage using onclick button and tried to fetch a quote. 
 
@@ -26,6 +26,7 @@
 
 -   Handled creating function to append new quotes to unordered list.
 
-### Name 4:
+### Christian:
 
 - things and stuff
+- Made function to fetch API, attach it to a json file, and handle thrown errors
