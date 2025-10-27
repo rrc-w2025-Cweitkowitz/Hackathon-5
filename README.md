@@ -8,7 +8,7 @@
 
 -   Name 1
 -   Name 2
--   Name 3
+-   Chan Madut
 
 ## Member Contributions:
 
@@ -20,9 +20,9 @@
 
 -   Was responsible for [specific tasks], focusing on [specific HTML elements].
 
-### Name 3:
+### Chan:
 
--   Handled [specific sections], covering [specific topics or features].
+-   Handled creating function to append new quotes to unordered list.
 
 ### Name 4:
 
