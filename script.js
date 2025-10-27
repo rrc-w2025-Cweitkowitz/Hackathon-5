@@ -19,7 +19,25 @@ async function fetchRandomQuote() {
         console.error("Failed to get the quotes:", error.message);
     }
 }
-
+counterTest = 0
 //logs the output of the fetched data
-fetchRandomQuote()
-    .then((data) => console.log(data));
+buttonValue = document.getElementById("quoteGenerator")
+
+document.getElementById("quoteGenerator").addEventListener("click", (event) => {
+    counterTest ++
+    console.log(counterTest)
+})
+
+async function quoteParsing() {
+    const quote = await fetchRandomQuote()
+    quote.forEach((quote) => {
+        let test = document.createElement("p")
+        test.textContent = (`Author: ${quote.a} \n Quote: ${quote.q}`)
+        testAppend = document.getElementById("quoteContainer")
+        testAppend.appendChild(test)
+    })
+}
+// fetchRandomQuote()
+//     .then((data) => console.log(data));
+
+quoteParsing()
