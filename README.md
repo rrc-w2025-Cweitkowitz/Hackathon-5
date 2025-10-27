@@ -7,8 +7,10 @@
 ## Team Members:
 
 -   Name 1
+
 -   Thea 
--   Name 3 
+-   Chan Madut
+
 
 ## Member Contributions:
 
@@ -20,9 +22,9 @@
 
 -   Tried to display quotes on the webpage using onclick button and tried to fetch a quote. 
 
-### Name 3:
+### Chan:
 
--   Handled [specific sections], covering [specific topics or features].
+-   Handled creating function to append new quotes to unordered list.
 
 ### Name 4:
 
